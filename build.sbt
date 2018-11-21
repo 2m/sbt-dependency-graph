@@ -28,3 +28,7 @@ scalacOptions ++= Seq(
 )
 
 ScalariformSupport.formatSettings
+
+bintrayOrganization := Some("2m")
+
+ThisBuild / version := "0.9.2+10-148ba0ff"
